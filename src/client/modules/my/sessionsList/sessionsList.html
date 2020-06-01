@@ -1,0 +1,28 @@
+<template>     
+      
+       <div class="searchbar">
+        <input type="search" placeholder="Search Here"  class="slds-input"  onchange={handleSearchKeyInput} ></lightning-input>
+    </div>
+
+    <div class="list">
+        <template for:each={sessions} for:item="session">
+           
+            
+                
+                              
+                    {session.Name}
+                  <!--  <p class="icon time">{session.Start_Time__c}</p>
+                    <p class="icon room">{session.Location__c}</p>-->
+              
+                
+                  <!-- <template for:each={session.SessionSpeakers__r} for:item="speaker">
+                      <img key={speaker.id} src={speaker.Speakers__r.Picture__c}
+                        alt={speaker.name} title={speaker.Speakers__r.Name}>
+                    </template>-->
+                
+            
+            &nbsp;&nbsp;
+        </template>
+        &nbsp;&nbsp;
+    </div>
+</template>

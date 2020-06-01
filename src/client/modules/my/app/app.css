@@ -1,0 +1,17 @@
+header {
+    padding: 0.1rem;
+    display: flex;
+    color: #ffffff;
+    background: #0288d1;
+    align-items: center;
+}
+header img {
+    height: 3rem;
+    margin-right: 0.3rem;
+}
+header h2 {
+    font-weight: 300;
+}
+.content {
+    padding: 1rem;
+}
